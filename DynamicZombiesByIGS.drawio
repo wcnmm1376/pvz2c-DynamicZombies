@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LDxWUW22XlhEcINw667i">
-    <mxGraphModel dx="934" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="4800" math="1" shadow="1">
+    <mxGraphModel dx="1436" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="4800" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,11 +60,50 @@
             <mxPoint x="801.5714285714287" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CUjkRtmcp6BlLcuoKbtT-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;方正少儿简繁&quot;&gt;获取当前波次&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="721" y="470" as="geometry" />
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-14" edge="1" parent="1" source="CUjkRtmcp6BlLcuoKbtT-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=default;startSize=8;endSize=8;" target="CUjkRtmcp6BlLcuoKbtT-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUjkRtmcp6BlLcuoKbtT-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;rounded=1;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 20px;&quot;&gt;波次禁用随机僵尸?&lt;/font&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="499.5" x="551.25" y="550" as="geometry" />
+        <mxCell id="CUjkRtmcp6BlLcuoKbtT-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;方正少儿简繁&quot;&gt;获取当前波次CurrentWave,&amp;nbsp; 其值等于波次序号-1&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 30px;&quot; face=&quot;方正少儿简繁&quot;&gt;例如, 第1波的&lt;/font&gt;&lt;span style=&quot;font-family: 方正少儿简繁; font-size: 30px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CurrentWave = 0&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="684.18" x="458.91" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-2" edge="1" parent="1" source="CUjkRtmcp6BlLcuoKbtT-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=default;startSize=8;endSize=8;" target="kdAt8GJ-DNY91dcq8R1g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUjkRtmcp6BlLcuoKbtT-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;rounded=1;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 20px;&quot;&gt;波次禁用随机僵尸?&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="499.5" x="551.25" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-9" edge="1" parent="1" source="kdAt8GJ-DNY91dcq8R1g-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=20;fontColor=default;startSize=8;endSize=8;" target="kdAt8GJ-DNY91dcq8R1g-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;rounded=1;" value="&lt;div&gt;&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 20px;&quot;&gt;当前波次&amp;gt;=起始波次?&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="538.75" x="531" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontSize=16;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 50px;&quot; face=&quot;方正少儿简繁&quot;&gt;作者: 真理&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="391" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontSize=16;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 50px;&quot; face=&quot;方正少儿简繁&quot;&gt;微调: IGS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="877" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=20;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 30px;&quot;&gt;否&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="800" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="250" width="940" x="330" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 30px;&quot;&gt;计算当前波次可用的动态增加僵尸点数&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="545.38" x="528.3" y="871" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 20px;&quot;&gt;=Min(&lt;/font&gt;&lt;span style=&quot;font-family: 方正少儿简繁; font-size: 20px;&quot;&gt;起始点数 +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: 方正少儿简繁; font-size: 20px;&quot;&gt;每波点数增量 × (当前波次 - 起始波次), 最大点数)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="850" x="376" y="911" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 30px;&quot;&gt;计算当前波次可用的动态删除僵尸点数&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="545.38" x="527.3" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;" value="&lt;font face=&quot;方正少儿简繁&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;=Abs(每波点数增量 × (当前波次 - 起始波次 + 1))&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="850" x="375" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="kdAt8GJ-DNY91dcq8R1g-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;labelBackgroundColor=none;" value="&lt;font face=&quot;方正少儿简繁&quot;&gt;&lt;span style=&quot;font-size: 20px; color: light-dark(rgb(63, 156, 243), rgb(237, 237, 237));&quot;&gt;# Abs() : 绝对值函数&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="696" y="1040" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
