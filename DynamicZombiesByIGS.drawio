@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LDxWUW22XlhEcINw667i">
-    <mxGraphModel dx="1099" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="4800" math="1" shadow="1">
+    <mxGraphModel dx="934" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="4800" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,7 +63,7 @@
         <mxCell id="CUjkRtmcp6BlLcuoKbtT-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;方正少儿简繁&quot;&gt;获取当前波次&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="721" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="CUjkRtmcp6BlLcuoKbtT-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;rounded=1;" value="" vertex="1">
+        <mxCell id="CUjkRtmcp6BlLcuoKbtT-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;rounded=1;" value="&lt;font face=&quot;方正少儿简繁&quot; style=&quot;font-size: 20px;&quot;&gt;波次禁用随机僵尸?&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="461" x="570.5" y="550" as="geometry" />
         </mxCell>
       </root>
